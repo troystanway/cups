@@ -25,6 +25,6 @@ VOLUME /etc/cups/ /var/log/cups /var/spool/cups /var/spool/cups-pdf /var/cache/c
 COPY start-cups.sh /root/start-cups.sh
 RUN chmod +x /root/start-cups.sh
 
-CMD ["/root/start-cups-ubuntu.sh"]
+CMD ["/root/start-cups.sh"]
 
 EXPOSE 632
